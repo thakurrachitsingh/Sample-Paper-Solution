@@ -1,0 +1,8 @@
+c=50
+h=30
+d=map(int,input().split(','))
+l=list(d)
+for i in l:
+	q=(((2*c*i)/h)**0.5)
+	p=int(q)
+	print(p,end=',')
