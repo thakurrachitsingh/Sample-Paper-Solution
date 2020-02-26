@@ -1,0 +1,7 @@
+l=map(int,input().split(','))
+L=list(l)
+a=L[-1]
+b=L[0]
+for i in range(b,a):
+	if i not in L:
+		print(i,end=',') 
