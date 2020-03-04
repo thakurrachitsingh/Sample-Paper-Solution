@@ -4,7 +4,7 @@ for i in range(65, 91):
     if chr(i) in s:
         pass
     else:
-        print('not a anagram')
+        print('not a pangram')
         break
 else:
-    print('anagram')
+    print('pangram')
